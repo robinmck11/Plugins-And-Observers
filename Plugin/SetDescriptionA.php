@@ -21,8 +21,9 @@ class SetDescriptionA
         return ['Hand Picked By: ' . $prefix];
     }
 
-//    public function afterGetStaffName(StaffPick $subject)
-//    {
-//        $this->logger->debug('Plugin A after Called');
-//    }
+    public function afterGetStaffName(StaffPick $subject, $result)
+    {
+        $this->logger->debug('Plugin A after Called');
+        return $result;
+    }
 }

@@ -21,8 +21,9 @@ class SetDescriptionC
         return [' sourced by' . $prefix];
     }
 
-//    public function afterGetStaffName(StaffPick $subject, $result)
-//    {
-//        $this->logger->debug('Plugin C after Called');
-//    }
+    public function afterGetStaffName(StaffPick $subject, $result)
+    {
+        $this->logger->debug('Plugin C after Called');
+        return $result;
+    }
 }
