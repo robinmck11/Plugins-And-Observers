@@ -22,8 +22,9 @@ class SetDescriptionB
     }
 
 
-//    public function afterGetStaffName(StaffPick $subject, $result)
-//    {
-//        $this->logger->debug('Plugin B after Called');
-//    }
+    public function afterGetStaffName(StaffPick $subject, $result)
+    {
+        $this->logger->debug('Plugin B after Called');
+        return $result;
+    }
 }

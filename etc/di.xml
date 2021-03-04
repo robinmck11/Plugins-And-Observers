@@ -2,13 +2,32 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
-        <plugin name="set-description-a" type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionA" />
+        <plugin name="set-description-a"
+                type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionA" />
     </type>
     <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
-        <plugin name="set-description-b" type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionB" />
+        <plugin name="set-description-b"
+                type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionB" />
     </type>
     <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
-        <plugin name="set-description-c" type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionC" />
+        <plugin name="set-description-c"
+                type="RobinMcK\PluginsAndObservers\Plugin\SetDescriptionC" />
+    </type>
+    <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
+        <plugin name="set-title-a"
+                type="RobinMcK\PluginsAndObservers\Plugin\Challenge\SetTitleA" />
+    </type>
+    <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
+        <plugin name="set-title-b"
+                type="RobinMcK\PluginsAndObservers\Plugin\Challenge\SetTitleB" />
+    </type>
+    <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
+        <plugin name="set-title-c"
+                type="RobinMcK\PluginsAndObservers\Plugin\Challenge\SetTitleC" />
+    </type>
+    <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
+        <plugin name="set-title-d"
+                type="RobinMcK\PluginsAndObservers\Plugin\Challenge\SetTitleD" />
     </type>
     <type name="RobinMcK\PluginsAndObservers\Block\StaffPick">
         <arguments>
