@@ -1,3 +1,4 @@
 <?php /** @var RobinMcK\PluginsAndObservers\Block\StaffPick $block */ ?>
-<h2>Our Staff Recommend this product:</h2>
+<?php $block->setTitle(__('This product is a staff Pick')); ?>
+<h2><?= $block->getTitle() ?></h2>
 <p><?= $block->getStaffName() ?></p>
